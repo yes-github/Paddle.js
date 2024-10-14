@@ -37,6 +37,7 @@
     }
   },
   "dependencies": {
+    "@paddlejs-mediapipe/camera": "file:",
     "hacktimer": "^1.1.3"
   }
 }

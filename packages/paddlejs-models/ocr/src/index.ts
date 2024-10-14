@@ -40,8 +40,12 @@ function initCanvas(canvas) {
 }
 
 export async function init(detCustomModel = null, recCustomModel = null) {
-    const detModelPath = 'https://paddlejs.bj.bcebos.com/models/fuse/ocr/ch_PP-OCRv2_det_fuse_activation/model.json';
-    const recModelPath = 'https://paddlejs.bj.bcebos.com/models/fuse/ocr/ch_PP-OCRv2_rec_fuse_activation/model.json';
+    // const detModelPath = '/ocr/ch_PP-OCRv2_det_fuse_activation/model.json';
+    const detModelPath = '/myocr/ch_ppocr_mobile_v2.0_det_pretrained/model.json';
+
+    const recModelPath = '/ocr/ch_PP-OCRv2_rec_fuse_activation/model.json';
+    // const recModelPath = '/myocr/en_PP-OCRv4_rec/model.json';
+
     env.set('webgl_pack_output', true);
     detectRunner = new Runner({
         modelPath: detCustomModel ? detCustomModel : detModelPath,

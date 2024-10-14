@@ -14,5 +14,8 @@
     "fs": false,
     "path": false,
     "os": false
+  },
+  "dependencies": {
+    "@paddlejs/paddlejs-core": "file:"
   }
 }

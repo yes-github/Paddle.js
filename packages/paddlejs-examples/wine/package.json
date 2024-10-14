@@ -14,7 +14,8 @@
   "dependencies": {
     "@paddlejs-models/mobilenet": "^1.1.1",
     "element-ui": "^2.13.2",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "wine": "file:"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.6.2",

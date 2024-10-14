@@ -8,5 +8,8 @@
     "build": "webpack --config webpack.prod.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@paddlejs/paddlejs-backend-cpu": "file:"
+  }
 }

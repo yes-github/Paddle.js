@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@paddlejs/paddlejs-backend-webgl": "^1.2.0",
-    "@paddlejs/paddlejs-core": "^2.1.18"
+    "@paddlejs/paddlejs-core": "^2.1.18",
+    "clas": "file:"
   }
 }

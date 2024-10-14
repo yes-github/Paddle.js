@@ -92,6 +92,7 @@
   "license": "ISC",
   "dependencies": {
     "@paddlejs/paddlejs-backend-webgl": "file:packages/paddlejs-backend-webgl",
-    "@paddlejs/paddlejs-core": "file:packages/paddlejs-core"
+    "@paddlejs/paddlejs-core": "file:packages/paddlejs-core",
+    "paddlejs": "file:"
   }
 }

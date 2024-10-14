@@ -10,7 +10,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@paddlejs-models/gesture": "^1.1.1"
+        "@paddlejs-models/gesture": "^1.1.1",
+        "gesture": "file:"
     },
     "devDependencies": {
         "html-webpack-plugin": "^3.2.0",

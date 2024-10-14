@@ -7,8 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "opencv", "blur", "core", "ocr"
+    "opencv",
+    "blur",
+    "core",
+    "ocr"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@paddlejs-mediapipe/opencv": "file:"
+  }
 }
